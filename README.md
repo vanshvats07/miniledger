@@ -178,31 +178,6 @@ miniledger/
 └── README.md
 ```
 
-## Push your code to GitHub
-
-Run these commands from the root folder. First create an **empty repository** on GitHub, then replace the URL below with your own repository URL.
-
-```bash
-git init
-git add .
-git commit -m "Build MiniLedger loan tracking app"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/miniledger.git
-git push -u origin main
-```
-
-Do not commit your real `.env` files. The `.gitignore` in this project already excludes them.
-
-## Suggested 2–3 minute demo recording
-
-1. **0:00–0:25:** Introduce MiniLedger and show the phone login screen.
-2. **0:25–0:45:** Enter a phone number, click send OTP, and show the code printed in the backend terminal.
-3. **0:45–1:15:** Log in and show the three summary figures.
-4. **1:15–1:45:** Add an entry with a past due date and show the overdue highlight.
-5. **1:45–2:10:** Add a future-dated entry, mark it repaid, and show the summary update.
-6. **2:10–2:40:** Briefly explain that Express serves the API, PostgreSQL stores data, and the mobile app calls the API using a bearer token.
-
-Record your own screen using Loom or another recorder, then paste that recording link in your submission message.
 
 ## Known demo limitations
 
